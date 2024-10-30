@@ -1,0 +1,4 @@
+streamlit 1.39.0
+langchain 0.2.16
+langchain_groq 0.1.10
+python-dotenv 1.0.1
