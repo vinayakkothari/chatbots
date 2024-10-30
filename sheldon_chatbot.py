@@ -40,9 +40,9 @@ def get_sheldon_response(context, question):
             return f"An error occurred: {str(e)}", False
 
 def main():
-    st.set_page_config(page_title="Sheldon Cooper AI", page_icon="🧠", layout="wide")
+    st.set_page_config(page_title="Dr. Sheldon Lee Cooper", page_icon="🖖🏻", layout="wide")
     
-    st.title("🖖🏻 Bazinga")
+    st.title("Bazinga!")
     st.subheader("*knock-knock\* *knock-knock\* *knock-knock\* ")
 
     if 'context' not in st.session_state:
